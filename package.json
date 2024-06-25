@@ -4,7 +4,10 @@
   "description": "My portfolio where i'll upload projects, what tecnology i'm learning and more",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch  src/scss/styles.scss src/scss/styles.css",
+    "sass-min": "sass --watch  src/scss/styles.scss src/scss/styles.min.css --style compressed"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +19,5 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3"
-  },
-  "scripts": {
-    "start": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
