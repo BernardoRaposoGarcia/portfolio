@@ -1,11 +1,8 @@
 // Import our custom CSS.
 import '../scss/styles.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
-
 
 // Import all of Bootstrap's JS.
-import * as bootstrap from "bootstrap";
+import * as bootstrap from "../../node_modules/bootstrap/dist/js/bootstrap.esm.js";
 
 // Import individually Javascript plugins.
 // import Alert from 'bootstrap';
