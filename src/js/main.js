@@ -2,7 +2,7 @@
 import '../scss/styles.min.css';
 
 // Import all of Bootstrap's JS.
-import * as bootstrap from 'bootstrap';
+import * as bootstrap from '../../node_modules/bootstrap';
 
 // Import individually Javascript plugins.
 // import Alert from 'bootstrap';
