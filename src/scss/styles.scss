@@ -86,7 +86,7 @@ $theme-colors: (
 ) !default;
 // scss-docs-end theme-colors-map
 
-@import '../../node_modules/bootstrap/scss/bootstrap';
-
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
 // for more details https://www.youtube.com/watch?v=q1uZujJgD94&ab_channel=ThiagoFranchin
 // Set-executionPolicy restricted
